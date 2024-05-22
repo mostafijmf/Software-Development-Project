@@ -1,0 +1,22 @@
+.error-message {
+    display: none;
+}
+
+.show-more {
+    display: none;
+}
+
+#spinner {
+    display: none;
+}
+
+@media only screen and (max-width: 425px) {
+    .input-group {
+        flex-direction: column;
+    }
+
+    .df-input {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+}
